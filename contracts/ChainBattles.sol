@@ -78,3 +78,4 @@ contract ChainBattles is ERC721URIStorage {
         _setTokenURI(tokenId, getTokenURI(tokenId));
     }
 }
+
