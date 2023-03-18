@@ -13,7 +13,8 @@ contract ChainBattles is ERC721URIStorage {
 
     mapping(uint256 => uint256) public tokenIdtoLevels;
 
-    constructor() ERC721("Khali Kartoos", "KK") {}
+    constructor() ERC721("Khali Kartoos", "KK") {
+    }
 
     function generateCharacter(uint256 tokenId) public returns (string memory) {
         bytes memory svg = abi.encodePacked(
